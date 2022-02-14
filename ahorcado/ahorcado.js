@@ -1,4 +1,4 @@
-import { pincel,canvas,soporte,cabeza,cuerpo, brazoIzquierdo, brazoDerecho, piernaIzquierda,piernaDerecha } from '../archivosJS/canvas.js'
+import { pincel,canvas,soporte,cabeza,cuerpo, brazoIzquierdo, brazoDerecho, piernaIzquierda,piernaDerecha } from '../canvas/canvas.js'
 let palabrasSecretas = ['JAVASCRIPT','HTML','CSS','REACT','PHP','CONSOLA','JUGO','VERDAD','SABOR','RELOJ','SOMBRA','SOMBRILLA','ESCOBA','JAVA','PENSAMIENTO','ESTRUCTURA','ALGORITMO','SOCIEDAD','PROGRAMACION','LENGUAJE'];
 let btnJugar = document.querySelector('#btnJuego');
 let btnReiniciar = document.querySelector('#reiniciar');
