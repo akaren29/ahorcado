@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+  <div class="container">
+      <h1>Ahorcado</h1>
+        <a href="#container-juego"> <button id="btnJuego"> Iniciar Juego </button></a> 
+        <input id="inputAgregar" type="text" placeholder="Ingrese una nueva palabra"> 
+        <button id="btnAgregar">Agregar palabra</button>
+
+        <footer>
+            <p>Alura Latam 2022© Elaborado por: Karen Jasso.</p>
+        </footer>
+   </div> 
+    
+
+    <div class="container-juego" id="container-juego">
+        <canvas width="1200" height="800"></canvas>
+        <button id="reiniciar">Volver a Jugar</button>
+    </div>
+
+    <script src="canvas.js" type="module"></script>
+    <script src="ahorcado.js" type="module"></script>
+</body>
+</html>
